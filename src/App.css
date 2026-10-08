@@ -1,0 +1,62 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.profile {
+  width: 350px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+.profile h2 {
+  color: blue;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: blue !important;
+  color: white !important;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: darkblue !important;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
